@@ -1,0 +1,19 @@
+package cp05;
+
+public class cp05 {
+	public class Main {	    public static void main(String[] args) {
+	        String[] alunos = {"Edgar", "Fabricio", "Abner", "Lucas", "Fabiana", "Antônia"};
+	        for (String aluno : alunos) {
+	            System.out.println(aluno);
+	        }
+	    }
+	}
+
+
+public static void main(String[] args) {
+        String[] codigosAlunos = {"001", "114", "364", "987"};
+        for (String codigo : codigosAlunos) {
+            System.out.println(codigo);
+        }
+    }
+}
